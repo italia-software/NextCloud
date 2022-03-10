@@ -1,0 +1,71 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: NextCloud
+categories:
+  - digital-asset-management
+  - document-management
+  - web-collaboration
+description:
+  it:
+    apiDocumentation: |-
+      https://docs.nextcloud.com/server/19/developer_manual/client_apis/index.html
+    documentation: 'https://docs.nextcloud.com/server/latest/user_manual/it/'
+    features:
+      - Cloud
+      - Sync
+      - Versioning
+      - Storage
+    genericName: Cloud privato
+    longDescription: |
+      Nextcloud è un software open source per la sincronizzazione e la 
+      condivisione dei file per tutti, dagli utenti che utilizzano il server
+      Nextcloud gratuito nella privacy della propria casa, alle grandi imprese 
+      e fornitori di servizi supportati dalla Nextcloud Enterprise Subscription.
+      Nextcloud fornisce una sincronizzazione file sicura e conforme, con
+      soluzioni di condivisione su server sotto il tuo  controllo.
+
+
+      Puoi condividere uno o più file e cartelle sul tuo computer, e 
+      sincronizzarle con il server Nextcloud. Inserisci file nelle tue  cartelle
+      condivise locali, e saranno immediatamente sincronizzati nel  server e
+      negli altri dispositivi tramite il Nextcloud Desktop Sync  Client,
+      l’applicazione Android o iOS. 
+    shortDescription: Una casa sicura per tutti i tuoi dati
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://nextcloud.com'
+legal:
+  authorsFile: 'https://raw.githubusercontent.com/nextcloud/server/master/AUTHORS'
+  license: AGPL-3.0-only
+  mainCopyrightOwner: Nextcloud GmbH
+localisation:
+  availableLanguages:
+    - it
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - name: NextCloud Gmbh
+  type: community
+name: NextCloud Server
+platforms:
+  - linux
+releaseDate: '2021-11-30'
+roadmap: 'https://docs.nextcloud.com/server/latest/admin_manual/release_schedule.html'
+softwareType: standalone/web
+softwareVersion: '23'
+url: 'https://github.com/nextcloud/server'
