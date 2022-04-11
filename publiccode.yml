@@ -34,6 +34,13 @@ description:
       negli altri dispositivi tramite il Nextcloud Desktop Sync  Client,
       l’applicazione Android o iOS. 
     shortDescription: Una casa sicura per tutti i tuoi dati
+    screenshots:
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/files/Welcome%20screen.png
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/files/Files%20Sidebar.png
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/apps/Mail/mail.png
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/apps/Deck/deck-card-details-with-checklist.png
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/apps/Collabora/collabora-app.png
+      - https://raw.githubusercontent.com/nextcloud/screenshots/master/apps/Talk/Talk%20-%20showing%20event%20info%20in%20the%20chat.png
 developmentStatus: stable
 it:
   conforme:
@@ -62,6 +69,7 @@ maintenance:
     - name: NextCloud Gmbh
   type: community
 name: NextCloud Server
+logo: https://nextcloud.com/wp-content/themes/next/assets/img/common/nextcloud-square-logo.png
 platforms:
   - linux
 releaseDate: '2021-11-30'
