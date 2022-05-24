@@ -68,7 +68,7 @@ maintenance:
     - name: NextCloud Gmbh
   type: community
 name: NextCloud Server
-logo: https://nextcloud.com/wp-content/themes/next/assets/img/common/nextcloud-square-logo.png
+logo: https://raw.githubusercontent.com/docker-library/docs/eabcf59e64b4395e681a7f7a9773bd213c9f3678/nextcloud/logo.svg
 platforms:
   - linux
 releaseDate: '2021-11-30'
